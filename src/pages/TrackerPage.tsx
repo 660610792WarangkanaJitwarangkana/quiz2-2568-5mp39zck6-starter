@@ -1,30 +1,30 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Button, Stack, Title, Divider, Container } from "@mantine/core";
-import { v4 as uuidv4 } from "uuid";
-import ModalCard from "../components/Modal";
+// import { v4 as uuidv4 } from "uuid";
+// import ModalCard from "../components/Modal";
 
-type Expense = {
-  id: string;
-  name: string;
-  amount: number | string;
-  category: string;
-};
+// type Expense = {
+//   id: string;
+//   name: string;
+//   amount: number | string;
+//   category: string;
+// };
 
 export default function ExpenseTracker() {
-  const [opened, setOpened] = useState(false);
-  const [expenses, setExpenses] = useState<Expense[]>([]);
-  const categories = ["Food", "Transport", "Entertainment"];
+  // const [opened, setOpened] = useState(false);
+  // const [expenses, setExpenses] = useState<Expense[]>([]);
+  // const categories = ["Food", "Transport", "Entertainment"];
 
-  const handleAdd = () => {
-    setOpened(true);
-  };
+  // const handleAdd = () => {
+  //   setOpened(true);
+  // };
 
   return (
     <Container style={{ maxWidth: 600, margin: "auto", padding: 20 }}>
       <Title order={2} mb="md">
         Expense Tracker
       </Title>
-      <Button onClick={handleAdd}
+      <Button
       >Add Expense Item</Button>
       {}
 
