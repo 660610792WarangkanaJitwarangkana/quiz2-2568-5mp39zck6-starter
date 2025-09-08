@@ -1,7 +1,7 @@
 interface FooterProps {
-  courseName: string;
+  course: string;
   year: string;
-  fullName: string;
+  name: string;
   studentId: string | number;
 }
 export type { FooterProps };
